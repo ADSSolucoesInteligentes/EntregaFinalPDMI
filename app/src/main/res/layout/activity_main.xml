@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+	Nome e RA de todos os componentes:
+	EVERTON JUNIOR MORENO - 2920482011008
+	FERNANDA CRISTINA DE SOUZA FERNANDES - 2920482011032
+	Objetivo:
+
+-->
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#D2F2F7"
+    android:orientation="vertical"
+    android:padding="16dp"
+
+    tools:context=".MainActivity">
+    <TextView
+        android:id="@+id/txtAviso"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:text="ATENÇÃO: para excluir um aluno, basta clicar sobre ele."
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/btnEditar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Editar Notas do Aluno"
+        app:backgroundTint="#EF9C82" />
+
+
+    <Button
+        android:id="@+id/btnAdicionar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Adicionar Notas de Aluno"
+        app:backgroundTint="#509653" />
+
+
+    <ListView
+        android:id="@+id/listViewAlunos"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+
+</LinearLayout>

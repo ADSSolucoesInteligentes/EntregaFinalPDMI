@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:textAlignment="center"
+    tools:context=".CadastroActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="15dp"
+        android:text="Registrar Notas"
+        android:textAlignment="center"
+        android:textSize="21sp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/txtNomeAluno"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Nome do Aluno"
+        android:inputType="text" />
+
+    <EditText
+        android:id="@+id/txtNotaB1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Nota B1 - Digite uma nota de 0 a 10"
+        android:inputType="number" />
+
+    <EditText
+        android:id="@+id/txtNotaB2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Nota B2 - Digite uma nota de 0 a 10"
+        android:inputType="number" />
+
+    <EditText
+        android:id="@+id/txtNotaB3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Nota B3 - Digite uma nota de 0 a 10"
+        android:inputType="number" />
+
+    <EditText
+        android:id="@+id/txtNotaB4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Nota B4 - Digite uma nota de 0 a 10"
+        android:inputType="numberDecimal" />
+
+    <Button
+        android:id="@+id/btnInserir"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Inserir e Calcular Média" />
+
+
+</LinearLayout>
